@@ -9,7 +9,7 @@ const MessengerPlugin = () => {
     window.fbAsyncInit = function () {
         FB.init({
             xfbml: true,
-            version: 'v15.0'
+            version: 'v3.3'
         });
     };
     (function (d, s, id) {
