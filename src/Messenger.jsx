@@ -1,6 +1,4 @@
 import React, {useEffect, useRef} from 'react';
-import loadScript from 'lo'
-
 
 const MessengerPlugin = () => {
     const MessengerRef = useRef();
