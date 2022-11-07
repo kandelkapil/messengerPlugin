@@ -1,16 +1,20 @@
 import { useState } from 'react'
 import MessengerPlugin from './Messenger'
+import { MessengerChat } from "react-messenger-chat-plugin";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div style={{width:'100vw',height:'100vh',background:'green'}}>
       <h1>messenger</h1>
-
-     <MessengerPlugin
-     showMsngr
-     />
+      <MessengerChat
+    pageId="100087453825879"
+    language="en_US"
+    themeColor={"#000000"}
+    bottomSpacing={300}
+    loggedInGreeting="loggedInGreeting"
+    loggedOutGreeting="loggedOutGreeting"
+    greetingDialogDisplay={"show"}
+  />,
     </div>
 
   )
