@@ -4,8 +4,8 @@ import { MessengerChat, } from "react-messenger-chat-plugin";
 
 function App() {
   return (
-    <div style={{width:'100vw',height:'100vh',background:'green'}}>
-      <h1>messenger</h1>
+    <div style={{width:'100vw',height:'100vh',background:'gray'}}>
+      <h1>messenger changes</h1>
       <MessengerChat
     pageId="109268111769502"
     language="sv_SE"
