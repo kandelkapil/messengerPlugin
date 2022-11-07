@@ -1,4 +1,5 @@
 import React, {useEffect, useRef} from 'react';
+import loadScript from 'lo'
 
 
 const MessengerPlugin = () => {
@@ -6,12 +7,15 @@ const MessengerPlugin = () => {
     useEffect(() => {
     MessengerRef.current.setAttribute("page_id", 100087453825879);
     MessengerRef.current.setAttribute("attribution", "biz_inbox");
-    window.fbAsyncInit = function () {
+    window.fbAsyncInit = function() {
         FB.init({
-            xfbml: true,
-            version: 'v3.3'
+          appId            : '436820911941202',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v15.0'
         });
-    };
+      };
+
     (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;

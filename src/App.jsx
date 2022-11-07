@@ -9,6 +9,7 @@ function App() {
       {/* <MessengerCustomerChat
         pageId="100087453825879"
         appId="436820911941202"
+        htmlRef={window.location.pathname}
       /> */}
       <MessengerPlugin/>
     </div>
