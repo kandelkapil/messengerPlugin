@@ -6,11 +6,11 @@ function App() {
   return (
     <div style={{width:'100vw',height:'100vh',background:'gray'}}>
       <h1>MessengerChat</h1>
-      <MessengerCustomerChat
+      {/* <MessengerCustomerChat
         pageId="100087453825879"
         appId="436820911941202"
-      />
-      {/* <MessengerPlugin/> */}
+      /> */}
+      <MessengerPlugin/>
     </div>
   )
 }
