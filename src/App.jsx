@@ -8,7 +8,7 @@ function App() {
     <div style={{width:'100vw',height:'100vh',background:'gray'}}>
       <h1>MessengerChat</h1>
       <MessengerChat
-    pageId="100087453825879"
+    pageId="109268111769502"
     language="sv_SE"
     themeColor={"#000000"}
     bottomSpacing={300}
