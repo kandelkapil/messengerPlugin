@@ -7,7 +7,7 @@ function App() {
   return (
     <div style={{width:'100vw',height:'100vh',background:'gray'}}>
       <h1>MessengerChat</h1>
-      <MessengerChat
+      {/* <MessengerChat
     pageId="109268111769502"
     language="sv_SE"
     themeColor={"#000000"}
@@ -34,7 +34,7 @@ function App() {
     onMessengerLoad={() => {
       console.log("onMessengerLoad");
     }}
-  />
+  /> */}
       {/* <MessengerPlugin/> */}
     </div>
   )
