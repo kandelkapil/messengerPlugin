@@ -7,6 +7,12 @@ function App() {
   return (
     <div style={{width:'100vw',height:'100vh',background:'gray'}}>
       <h1>MessengerChat</h1>
+
+      <MessengerCustomerChat
+  pageId="100087453825879"
+  appId="436820911941202"
+  htmlRef={window.location.pathname}
+/>
       {/* <MessengerChat
     pageId="109268111769502"
     language="sv_SE"
@@ -35,7 +41,7 @@ function App() {
       console.log("onMessengerLoad");
     }}
   /> */}
-      <MessengerPlugin/>
+      {/* <MessengerPlugin/> */}
     </div>
   )
 }
