@@ -35,7 +35,7 @@ function App() {
       console.log("onMessengerLoad");
     }}
   /> */}
-      {/* <MessengerPlugin/> */}
+      <MessengerPlugin/>
     </div>
   )
 }

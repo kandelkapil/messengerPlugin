@@ -3,10 +3,8 @@ import React, {useEffect, useRef} from 'react';
 const MessengerPlugin = () => {
     const MessengerRef = useRef();
     useEffect(() => {
-
-      MessengerRef.current.setAttribute("page_id", "your_page_id");
+      MessengerRef.current.setAttribute("page_id", "100087453825879");
       MessengerRef.current.setAttribute("attribution", "biz_inbox");
-  
       window.fbAsyncInit = function () {
           FB.init({
               xfbml: true,
