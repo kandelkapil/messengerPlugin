@@ -8,7 +8,8 @@ const MessengerPlugin = () => {
       window.fbAsyncInit = function () {
           FB.init({
               xfbml: true,
-              version: 'v15.0'
+              version: 'v15.0',
+              appId:436820911941202,
           });
       };
   
