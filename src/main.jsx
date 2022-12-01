@@ -7,5 +7,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <MessengerChat
     pageId="109268111769502"
       /> 
-    // <App />
 )
