@@ -5,6 +5,7 @@ import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
       <MessengerChat
-    pageId="109268111769502"
+    pageId="100087453825879"
+  appId="436820911941202"
       /> 
 )
